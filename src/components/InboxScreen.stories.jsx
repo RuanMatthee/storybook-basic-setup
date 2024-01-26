@@ -33,6 +33,9 @@ export const Default = {
             ],
         },
     },
+    // For more information on play and testing, see:
+    // https://storybook.js.org/docs/react/writing-tests/interaction-testing
+    // https://storybook.js.org/tutorials/ui-testing-handbook/
     play: async ({ canvasElement }) => {
         const canvas = within(canvasElement);
         // Waits for the component to transition from the loading state
